@@ -11,7 +11,7 @@ node{
     
     stage('Build image'){
     
-        app = docker.build("buddha1/python-hello-world")
+        app = docker.build("buddha1/docker")
  
     }
     
