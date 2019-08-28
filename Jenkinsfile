@@ -22,7 +22,7 @@ node{
         docker.withRegistry('https://registry.hub.docker.com','docker-hub'){
         
             app.push("${env.BUILD_NUMBER}")
-            app.
+            
         }
         
         echo "pushing docker build to docker hub"
